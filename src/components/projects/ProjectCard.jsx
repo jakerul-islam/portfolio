@@ -8,7 +8,6 @@ export function ProjectCard({ title, description, tags, link, github, image, ind
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
   const [showDetail, setShowDetail] = useState(false);
-  const [imgLoaded, setImgLoaded] = useState(false);
   const [imgError, setImgError] = useState(false);
 
   function handleMouseMove({ currentTarget, clientX, clientY }) {
@@ -45,20 +44,14 @@ export function ProjectCard({ title, description, tags, link, github, image, ind
 
         {/* Image Area */}
         <div className="h-48 w-full bg-slate-800 relative overflow-hidden">
-          {/* Skeleton shimmer while loading */}
-          {!imgLoaded && !imgError && (
-            <div className="absolute inset-0 bg-slate-700 animate-pulse" />
-          )}
-
           {imgError ? (
             <ImagePlaceholder />
           ) : (
             <img
               src={image}
               alt={title}
-              onLoad={() => setImgLoaded(true)}
-              onError={() => { setImgError(true); setImgLoaded(true); }}
-              className={`absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-all duration-700 ease-out ${imgLoaded ? 'opacity-100' : 'opacity-0'}`}
+              onError={() => setImgError(true)}
+              className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
             />
           )}
           <div className="absolute inset-0 bg-linear-to-t from-slate-900 to-transparent opacity-60" />
