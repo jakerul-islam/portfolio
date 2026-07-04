@@ -24,7 +24,7 @@ const projects = [
   {
     title: 'SkillSphere — Online Learning Platform',
     description:
-      'SkillSphere is a modern online learning platform where users can explore and enroll in courses taught by industry experts. The platform covers a wide range of topics including Web Development, UI/UX Design, Digital Marketing, Data Science, Freelancing, and Video Editing. It also provides learning tips and study techniques to help students learn more effectively.
+      'SkillSphere is a modern online learning platform where users can explore and enroll in courses taught by industry experts. The platform covers a wide range of topics including Web Development, UI/UX Design, Digital Marketing, Data Science, Freelancing, and Video Editing. It also provides learning tips and study techniques to help students learn more effectively.'
 
 ,
     tags: ['Next.js', 'react.js', 'JavaScript'],
