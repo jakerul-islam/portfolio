@@ -24,8 +24,10 @@ const projects = [
   {
     title: 'SkillSphere — Online Learning Platform',
     description:
-      'A personal relationship management app to keep track of friends, interactions, and connection health. Visualises your social shelf with timelines and stats.',
-    tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+      'SkillSphere is a modern online learning platform where users can explore and enroll in courses taught by industry experts. The platform covers a wide range of topics including Web Development, UI/UX Design, Digital Marketing, Data Science, Freelancing, and Video Editing. It also provides learning tips and study techniques to help students learn more effectively.
+
+,
+    tags: ['Next.js', 'react.js', 'JavaScript'],
     link: 'https://online-learning-platform-self-nine.vercel.app',
     github: 'https://github.com/jakerul-islam/online-learning-platform',
     image: '/SkillSphere.png',
