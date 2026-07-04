@@ -22,13 +22,13 @@ const projects = [
     image: '/doctor_appoinment.png',
   },
   {
-    title: 'KeenKeeper',
+    title: 'SkillSphere — Online Learning Platform',
     description:
       'A personal relationship management app to keep track of friends, interactions, and connection health. Visualises your social shelf with timelines and stats.',
     tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
-    link: 'https://keen-keeper-five.vercel.app/',
-    github: 'https://github.com/jakerul-islam/keen-keeper',
-    image: '/keen.png',
+    link: 'https://online-learning-platform-self-nine.vercel.app',
+    github: 'https://github.com/jakerul-islam/online-learning-platform',
+    image: '/SkillSphere.png',
   },
 ];
 
