@@ -4,22 +4,22 @@ import { ProjectCard } from './ProjectCard';
 
 const projects = [
   {
-    title: 'GitHub Issues Tracker',
+    title: 'Ticket Bari',
     description:
-      'A clean issue-tracking dashboard that lets you browse, filter, and manage GitHub issues by status — open, closed, or all. Built with a focus on clarity and fast navigation.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://jakerul-islam.github.io/Assignment-5/main.html',
-    github: 'https://github.com/jakerul-islam/Assignment-5',
-    image: '/github.png',
+      'TicketBari is an online ticket booking platform for buses, trains, launches (river cruises), and flights across Bangladesh.',
+    tags: ['Next.js', 'React.js','javascript','Node.js','Express.js','MongoDb'],
+    link: 'https://ticket-bari-client-three.vercel.app',
+    github: 'https://github.com/jakerul-islam/ticket-bari-client-side',
+    image: '/ticket_bari.png',
   },
   {
-    title: 'DigiTools',
+    title: 'DocAppointment',
     description:
-      'A premium digital marketplace to access AI tools, design assets, templates, and productivity software — all in one place. Features a modern landing page with pricing and testimonials.',
-    tags: ['React', 'Tailwind CSS', 'JavaScript'],
-    link: 'https://digital-tools-ai.netlify.app/',
-    github: 'https://github.com/jakerul-islam/digital-tools-ai',
-    image: '/digi.png',
+      'DocAppoint is a modern digital solution designed to help patients book doctor appointments easily and manage their healthcare. Users can explore verified medical experts, view details, and schedule appointments instantly from the comfort of their homes.',
+    tags: ['Next.js', 'React.js','javascript','Node.js','Express.js','MongoDb'],
+    link: 'https://doctor-appoinment-red.vercel.app',
+    github: 'https://github.com/jakerul-islam/doctor-appoinment',
+    image: '/doctor_appoinment.png',
   },
   {
     title: 'KeenKeeper',
