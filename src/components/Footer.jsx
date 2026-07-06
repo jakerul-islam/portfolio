@@ -132,7 +132,7 @@ export default function Footer() {
         transition={{ duration: 1, delay: 0.6 }}
         className="text-center text-gray-600 text-xs border-t border-white/5 pt-8 relative z-10"
       >
-        © 2026 Salman Shah. All rights reserved. Built with Next.js, Tailwind CSS &amp; Framer
+        © 2026 Jakerul Islam. All rights reserved. Built with Next.js, Tailwind CSS &amp; Framer
         Motion.
       </motion.div>
     </footer>
