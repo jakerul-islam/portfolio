@@ -108,10 +108,11 @@ export function ProjectCard({ title, description, tags, link, github, image, ind
             {/* View Detail */}
             <button
               onClick={() => setShowDetail(true)}
-              className="flex items-center justify-center w-12 h-12 rounded-xl bg-slate-800 border border-white/10 text-gray-400 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-300"
+              className="flex items-center justify-center w-full h-12 rounded-xl bg-slate-800 border border-white/10 text-gray-400 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-300"
               title="View Details"
             >
               <ExternalLink size={18} />
+              Details
             </button>
           </div>
         </div>
